@@ -16,14 +16,15 @@
 		autoHeader: true,
 		loadNavbar: true,
 		maxLevel: 3,
-		subMaxLevel: 2,
+		subMaxLevel: 1,
 		onlyCover: false,
 		coverpage: ['/', '/pt/'],
 		
-		name: 'Mvp-Docs',
+		name: 'mvp-docs',
 		
 		search: 'auto',
 		search: {
+			maxAge: 86400000,
 			noData: {
 			  '/pt/': 'Nada encontrado!',
 			  '/': 'No results!'
@@ -32,7 +33,8 @@
 			placeholder: {
 			  '/pt/': 'Procurar',
 			  '/': 'Search'
-			}
+			},
+			depth: 6
 		},
 		repo: 'https://github.com/MVPContributions/mvp-docs',
 		logo: '/_media/logo.png',

@@ -2,16 +2,15 @@
 
 ![logo](_media/logo.png)
 
-# MVP Contribution
+# MVP Contributions Guide
 
 > A completely **unofficial** guide for MVP Community Contributions
 
-* Simple and lightweight (~19kB gzipped)
-* No statically built html files
-* Multiple themes
+* A collection of information about how to inform your activities
+* This is not an official guideline!
 
 [GitHub](https://github.com/MVPContributions/mvp-docs)
-[Get Started](#readme)
+[Get Started](#main)
 
 <!-- background color -->
 
