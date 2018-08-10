@@ -8,3 +8,4 @@ We can't repeat ourselves enough when we said this is not official. **Always ask
 
 Live website: https://mvpcontributions.github.io/mvp-docs/#/
 
+Powered by https://github.com/docsifyjs/docsify/
