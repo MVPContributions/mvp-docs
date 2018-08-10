@@ -10,6 +10,8 @@ Live website: https://mvpcontributions.github.io/mvp-docs/#/
 
 # Contributing
 
+If you have any doubts about an entry or find something wrong, please, create an [issue](https://github.com/MVPContributions/mvp-docs/issues) and let's discuss! :)
+
 ## Translations
 
 For a new language, create a folder with the desired language tag in the `docs` folder.
