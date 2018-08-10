@@ -12,6 +12,7 @@
     * [Conference - Organizer](conference-organizer.md)
     * [Conference - Booth Presenter](conference-booth-presenter.md)
     * [Forums](forums.md)
+    * [Meetups](meetups.md)
     * [Mentorship](mentorship.md)
     * [Open-Source Projects](open-source-projects.md)
     * [Other](other.md)
