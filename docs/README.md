@@ -8,4 +8,21 @@ We can't repeat ourselves enough when we said this is not official. **Always ask
 
 Live website: https://mvpcontributions.github.io/mvp-docs/#/
 
+# Contributing
+
+## Translations
+
+For a new language, create a folder with the desired language tag in the `docs` folder.
+
+Ex: 
+  - /docs -> English (default)
+  - /docs/pt -> Portuguese
+
+You can change the current language in the upper right translations dropdown.
+
+## Fallback
+
+The English files are the default ones. If you choose another language and there is an equal filename on the `/docs/[your language]` folder, this translated file will be shown instead.
+
+
 Powered by https://github.com/docsifyjs/docsify/
