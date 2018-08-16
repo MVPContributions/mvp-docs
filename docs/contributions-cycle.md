@@ -1,0 +1,1 @@
+Your contributions submissions must be for community activities between `April 1` to `March 31` the next year.
