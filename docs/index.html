@@ -6,60 +6,61 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Unofficial MVP Contributions Docs">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+	<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-		loadSidebar: true,
-		autoHeader: true,
-		loadNavbar: true,
-		maxLevel: 3,
-		subMaxLevel: 1,
-		onlyCover: false,
-		coverpage: ['/', '/pt/'],
-		
-		name: 'mvp-docs',
-		
-		search: 'auto',
-		search: {
-			maxAge: 86400000,
-			noData: {
-			  '/pt/': 'Nada encontrado!',
-			  '/': 'No results!'
+			loadSidebar: true,
+			autoHeader: true,
+			loadNavbar: true,
+			maxLevel: 3,
+			subMaxLevel: 1,
+			onlyCover: false,
+			coverpage: ['/', '/pt/'],
+			
+			name: 'mvp-docs',
+			
+			search: 'auto',
+			search: {
+				maxAge: 86400000,
+				noData: {
+					'/pt/': 'Nada encontrado!',
+					'/': 'No results!'
+				},
+				paths: 'auto',
+				placeholder: {
+					'/pt/': 'Procurar',
+					'/': 'Search'
+				},
+				depth: 6
 			},
-			paths: 'auto',
-			placeholder: {
-			  '/pt/': 'Procurar',
-			  '/': 'Search'
-			},
-			depth: 6
-		},
-		repo: 'https://github.com/MVPContributions/mvp-docs',
-		logo: '/_media/logo.png',
-		themeColor: '#0072C6',
-		fallbackLanguages: ['en'],
-		plugins: [
-			function (hook, vm) {
-			  hook.beforeEach(function (html) {
-				if (/githubusercontent\.com/.test(vm.route.file)) {
-				  url = vm.route.file
-					.replace('raw.githubusercontent.com', 'github.com')
-					.replace(/\/master/, '/blob/master')
-				} 
-				else {
-				  url = 'https://github.com/mvpcontributions/mvp-docs/blob/master/docs/' + vm.route.file
-				}
-				var editHtml = '[:memo: Edit on Github](' + url + ')\n'
+			repo: 'https://github.com/MVPContributions/mvp-docs',
+			logo: '/_media/logo.png',
+			themeColor: '#0072C6',
+			ga: 'UA-124045663-1',
+			fallbackLanguages: ['en'],
+			plugins: [
+				function (hook, vm) {
+					hook.beforeEach(function (html) {
+					if (/githubusercontent\.com/.test(vm.route.file)) {
+						url = vm.route.file
+						.replace('raw.githubusercontent.com', 'github.com')
+						.replace(/\/master/, '/blob/master')
+					} 
+					else {
+						url = 'https://github.com/mvpcontributions/mvp-docs/blob/master/docs/' + vm.route.file
+					}
+					var editHtml = '[:memo: Edit on Github](' + url + ')\n'
 
-				return editHtml 
-				  + '\n\n'
-				  + html
-				  + '\n\n----\n\n';
-			  })
-			}
-		]
+					return editHtml 
+						+ '\n\n'
+						+ html
+						+ '\n\n----\n\n';
+					})
+				}
+			]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script> 
