@@ -6,7 +6,16 @@ You can add every article you write informing its URL and date of publication. I
 
 # Adding many articles at once
 
-You can also add many articles at once. 
+You can also add many articles at once. This is useful specially when they all share the same URL/Portal. Use the description section to identify important information about them.
+
+# Printed Articles, Newspapers and Magazines
+
+## URL
+If your article is for a printed magazine or newspaper and there is no online version of it, take a picture of the physical version and upload it to your blog/onedrive/etc. Share a public link in the URL section.  
+
+## Number of views
+
+As the number of views, add the print run or circulation.
 
 # Remarks: 
 
